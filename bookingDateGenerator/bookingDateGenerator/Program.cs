@@ -15,7 +15,7 @@ namespace bookingDateGenerator
             DateTime currentDate = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, 0, 0, 0);
 
             List<Booking> roomBookings = new List<Booking>();
-            for (int i = 0; i < 100; i++)
+            for (int i = 0; i < 10; i++)
             {
 
                 // generates a random minute in increments of 15
